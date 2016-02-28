@@ -39,8 +39,7 @@
 								<?php
 								// On se connecte a la base de donnée
 								try {
-									$bdd = new PDO('mysql:host=localhost;dbname=testop;charset=utf8', 'root', '');
-									}
+							$bdd = new PDO('mysql:host=localhost;dbname=*******;charset=utf8', 'root', '');									}
 									//en cas d'erreur, on affiche un message et on arrète tout
 									catch (Excepion $e)
 									{
